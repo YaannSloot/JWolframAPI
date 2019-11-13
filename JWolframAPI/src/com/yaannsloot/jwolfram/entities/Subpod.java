@@ -1,4 +1,4 @@
-package main.yaannsloot.jwolfram.entities;
+package com.yaannsloot.jwolfram.entities;
 
 /**
  * Represents a Wolfram|Alpha subpod. Subpods are subsections of information

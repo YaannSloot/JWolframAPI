@@ -1,4 +1,4 @@
-package main.yaannsloot.jwolfram.entities;
+package com.yaannsloot.jwolfram.entities;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.parser.Parser;
 import org.jsoup.select.Elements;
 
-import main.yaannsloot.jwolfram.exceptions.UnrecognisedQueryDataException;
+import com.yaannsloot.jwolfram.exceptions.UnrecognisedQueryDataException;
 
 /**
  * Represents a query result from the Wolfram|Alpha API endpoint. Query results

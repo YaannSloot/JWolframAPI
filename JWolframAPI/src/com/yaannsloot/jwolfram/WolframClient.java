@@ -1,4 +1,4 @@
-package main.yaannsloot.jwolfram;
+package com.yaannsloot.jwolfram;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,9 +12,9 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.parser.Parser;
 
-import main.yaannsloot.jwolfram.entities.QueryResult;
-import main.yaannsloot.jwolfram.exceptions.InvalidAppidException;
-import main.yaannsloot.jwolfram.exceptions.UnrecognisedQueryDataException;
+import com.yaannsloot.jwolfram.entities.QueryResult;
+import com.yaannsloot.jwolfram.exceptions.InvalidAppidException;
+import com.yaannsloot.jwolfram.exceptions.UnrecognisedQueryDataException;
 
 /**
  * Controls queries sent to the Wolfram|Alpha API endpoint. Must have a valid

@@ -1,4 +1,4 @@
-package main.yaannsloot.jwolfram.entities;
+package com.yaannsloot.jwolfram.entities;
 
 import java.util.List;
 

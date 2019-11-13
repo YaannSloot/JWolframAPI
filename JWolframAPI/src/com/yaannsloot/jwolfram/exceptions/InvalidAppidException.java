@@ -1,4 +1,4 @@
-package main.yaannsloot.jwolfram.exceptions;
+package com.yaannsloot.jwolfram.exceptions;
 
 /**
  * Thrown to indicate that the appid provided to the WolframClient constructor was invalid

@@ -1,4 +1,4 @@
-package main.yaannsloot.jwolfram.exceptions;
+package com.yaannsloot.jwolfram.exceptions;
 
 /**
  * Thrown to indicate that the data provided does not match valid Wolfram|Alpha API query data
