@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.yaannsloot</groupId>
 	<artifactId>jwolfram-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>jwolfram-api</name>
 	<description>A simple Java binding for the Wolfram|Alpha API</description>
 	<build>
