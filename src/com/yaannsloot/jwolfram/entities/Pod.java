@@ -27,7 +27,7 @@ public class Pod {
 	 * @param position The position of the pod
 	 * @param scanner  The scanner of the pod
 	 * @param id       The pod id
-	 * @param subpods  A list of {@linkplain Subpod}'s that were contained in this
+	 * @param subpods  A list of {@linkplain Subpod}s that were contained in this
 	 *                 pod
 	 */
 	public Pod(String title, boolean error, int position, String scanner, String id, List<Subpod> subpods) {
