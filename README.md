@@ -5,3 +5,17 @@
 A simple Java binding for the Wolfram|Alpha API
 
 ## Usage
+
+First create a WolframClient object
+```
+try {
+  WolframClient client = new WolframClient("DEMO");
+} catch (InvalidAppidException e) {
+  // This happens if your app id is invalid
+  e.printStackTrace();
+}
+```
+Then perform a query using the following methods:
+* **completeQuery**
+* **queueQuery**
+* **submitQuery**
