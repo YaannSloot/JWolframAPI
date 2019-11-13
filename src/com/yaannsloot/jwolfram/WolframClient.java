@@ -72,7 +72,7 @@ public class WolframClient {
 					raw);
 			result = new QueryResult(raw);
 			raw.delete();
-		} catch (UnrecognisedQueryDataException | IOException e) {
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		return result;

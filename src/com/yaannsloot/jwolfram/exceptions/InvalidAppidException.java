@@ -3,7 +3,7 @@ package com.yaannsloot.jwolfram.exceptions;
 /**
  * Thrown to indicate that the appid provided to the WolframClient constructor was invalid
  */
-public class InvalidAppidException extends Exception {
+public class InvalidAppidException extends RuntimeException {
 
 	private static final long serialVersionUID = -1557299582004360058L;
 	
