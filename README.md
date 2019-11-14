@@ -75,7 +75,7 @@ client.queueQuery("2+2", result -> {
 ```
 This will query for the answer to "2+2" and print out the response, however the entire request is done asynchronously. Once the task completes, this method will fire the consumer that in this case was passed as a lambda function.  
   
-**Asynchronous example using [future](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Future.html)**
+**Asynchronous example using [future](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Future.html)**:
 ```java
 WolframClient client = new WolframClient("DEMO");
 Future<QueryResult> futureResult = client.submitQuery("2+2");
