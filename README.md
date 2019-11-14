@@ -40,7 +40,7 @@ allprojects {
 And the dependency
 ```gradle
 dependencies {
-  implementation 'com.github.YaannSloot:JWolframAPI:Tag'
+  implementation 'com.github.YaannSloot:JWolframAPI:VERSION'
 }
 ```
 ### Usage
